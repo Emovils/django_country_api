@@ -132,5 +132,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'citizens', 
 ]
+ALLOWED_HOSTS = ['*']
+
 
 
