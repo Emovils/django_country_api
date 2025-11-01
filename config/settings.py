@@ -1,3 +1,6 @@
+# config\settings.py
+
+
 INSTALLED_APPS = [
     # Third-party apps
     'corsheaders',
@@ -46,4 +49,4 @@ ALLOWED_HOSTS = [
     "django-country-api.onrender.com",
 ]
 
-ROOT_URLCONF = 'django_country_api.urls'
+ROOT_URLCONF = 'config.urls'
