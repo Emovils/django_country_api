@@ -138,5 +138,19 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 ALLOWED_HOSTS = ['*']
 
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",  # your React dev server
+    "https://django-country-api.onrender.com",  # your backend hosted domain
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://django-country-api.onrender.com",
+]
+
+# Optional (helpful during dev)
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
+
+
 
 
