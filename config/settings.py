@@ -37,9 +37,9 @@ CSRF_TRUSTED_ORIGINS = [
     "https://django-country-api.onrender.com",
 ]
 
-# ✅ During development (optional, safe now)
-CORS_ALLOW_ALL_ORIGINS = True
-CORS_ALLOW_CREDENTIALS = True
 
-# ✅ Allow Render host + localhost
-ALLOWED_HOSTS = ['*']
+
+#  Allow Render host + localhost
+ALLOWED_HOSTS = ["http://localhost:5173",  # Local React app
+    "https://django-country-api.onrender.com",  # Deployed backend
+    ]
